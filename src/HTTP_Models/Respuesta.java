@@ -25,8 +25,6 @@ public class Respuesta {
     }
 //Este metodo obtiene la respuesta de la peticion que manda el cliente la obtiene y la define en una variable local
     public void mostrarRespuesta( ) throws IOException, InterruptedException {
-        //Es una prueva para determinar si se ejecuta este metodo
-        System.out.println(" Entramos a mostrar respuesta");
         HttpResponse<String> response = cliente.send(solicitud, HttpResponse.BodyHandlers.ofString());
         String json = response.body();
         this.respuesta = json;
