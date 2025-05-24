@@ -42,25 +42,27 @@ La aplicación permite:
    ```bash
    javac Main.java
    java Main
-EJEMPLO DE USO
-   ############################### INICIA PROGRAMA ###############################
-Escrribla el tipo de moneda que quiere  convertir:
-USD.
+## EJEMPLO DE USO
+  ############################### INICIA PROGRAMA ###############################
+##     Escrribla el tipo de moneda que quiere  convertir:
+## USD.
 ...
-Para finalizar escriba: salir.
-#############################################################################
+## Para finalizar escriba: salir.
+ #############################################################################
 
-Ingrese el monto de la moneda que quiere comparar:
+## Ingrese el monto de la moneda que quiere comparar:
 100
 
 ****************Espere mientras se procesa el calculo******************
-Los Calculos del monto 100.0 actual en: USD son: 
-  En BRL=570.62 Reales
-  En ARS=113700.0 Pesos argentinos
-  En COP=418826.75 Pesos colombianos
-  En USD=100.0 Dolares
-  En BOB=693.24 Pesos bolivianos
-  En CLP=94311.26000000001 Pesos chilenos 
+
+#
+## Los Calculos del monto 100.0 actual en: USD son: 
+  ## En BRL=570.62 Reales
+  ## En ARS=113700.0 Pesos argentinos
+  ## En COP=418826.75 Pesos colombianos
+  ## En USD=100.0 Dolares
+  ## En BOB=693.24 Pesos bolivianos
+  ## En CLP=94311.26000000001 Pesos chilenos 
 
 
 👤 Autor
